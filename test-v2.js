@@ -3,8 +3,8 @@ import { Bootpay } from "@bootpay/backend-js";
 // 1. 토큰 발급
 async function getAccessToken() {  
     Bootpay.setConfiguration({
-        application_id: '59b731f084382614ebf72215',
-        private_key: 'WwDv0UjfwFa04wYG0LJZZv1xwraQnlhnHE375n52X0U='
+        application_id: '65fbb57800be04001b0635c7',
+        private_key: 'oBByqBtRMsAyNJwrGmSZ5IjgUjnidAG+0sAzYhnEjgA='
     })
     try {
         let response = await Bootpay.getAccessToken()
