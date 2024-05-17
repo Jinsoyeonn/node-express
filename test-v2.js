@@ -1,8 +1,8 @@
 import { Bootpay } from '@bootpay/backend-js'
 
 Bootpay.setConfiguration({
-    application_id: '[ REST API용 Application ID ]',
-    private_key: '[ Private KEy ]'
+    application_id: '65fbb57800be04001b0635c7',
+    private_key: 'oBByqBtRMsAyNJwrGmSZ5IjgUjnidAG+0sAzYhnEjgA='
 })
 
 try {
